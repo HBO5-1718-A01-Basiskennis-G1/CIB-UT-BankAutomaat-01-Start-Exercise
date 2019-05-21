@@ -24,6 +24,20 @@ namespace Bank.Lib
 
         public decimal TakeMoneyFromBankAccount(decimal money)
         {
+            //int getal;
+            //string letter = "a";
+            //getal = int.Parse(letter);
+
+            if (money < 0)
+            {
+                throw new ArgumentOutOfRangeException("Het bedrag kan niet kleiner zijn dan 0");
+            }
+
+            if (money > Balance)
+            {
+                throw new ArgumentOutOfRangeException("Het bedrag kan niet groeter zijn dan de balans");
+            }
+
             Balance -= money;
             return Balance;
         }

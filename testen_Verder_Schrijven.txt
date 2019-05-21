@@ -1,0 +1,14 @@
+ if (money < 0)
+            {
+                throw new ArgumentOutOfRangeException("Het bedrag kan niet kleiner zijn dan 0");
+            }
+
+            if (money > Balance)
+            {
+                throw new ArgumentOutOfRangeException("Het bedrag kan niet groeter zijn dan de balans");
+            }
+
+            Balance -= money;
+            return Balance;
+
+verder testen zelf schrijven 7.7 LABO (uit de cursus It organisatie)

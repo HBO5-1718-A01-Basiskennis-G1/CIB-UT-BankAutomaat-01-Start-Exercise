@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.168
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.352
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankAutomaat.WPF", "BankAutomaat.WPF\BankAutomaat.WPF.csproj", "{0226A4AA-DAB3-4CFB-B974-879D6906473B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bank.Lib", "Bank.Lib\Bank.Lib.csproj", "{5A26AE13-9975-4AC5-829A-C9AAD88CA5A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankAutomaat.Tests", "BankAutomaat.Tests\BankAutomaat.Tests.csproj", "{528CDD32-5D5F-45B5-97A2-6EA8A270BE0B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{5A26AE13-9975-4AC5-829A-C9AAD88CA5A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5A26AE13-9975-4AC5-829A-C9AAD88CA5A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5A26AE13-9975-4AC5-829A-C9AAD88CA5A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{528CDD32-5D5F-45B5-97A2-6EA8A270BE0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{528CDD32-5D5F-45B5-97A2-6EA8A270BE0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{528CDD32-5D5F-45B5-97A2-6EA8A270BE0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{528CDD32-5D5F-45B5-97A2-6EA8A270BE0B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
